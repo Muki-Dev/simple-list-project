@@ -1,5 +1,4 @@
 import React from 'react';
-import { students } from './datas/studentList.js';
 function Student({student}){
 	return(
 		<div>
