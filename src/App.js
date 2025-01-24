@@ -1,11 +1,11 @@
-import { studentList } from './datas/studentList';
-import StudentList from './components/studentList';
+import { students } from './datas/students';
+import StudentList from './components/StudentList'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <studentList students={studentList} />
+      <StudentList students={students} />
     </div>
   );
 }
